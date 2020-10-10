@@ -48,7 +48,7 @@ nav {
 
 nav>ul {
     margin: 0;
-    padding: 10px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -56,11 +56,10 @@ nav>ul {
 
 nav>ul>li>a {
     color: var(--black);
-    font-size: 0.8rem;
     transition: font-size 0.3s;
 }
 
-nav>ul>li>a:hover, nav>ul>li>a:hover {
+nav>ul>li>a:hover, nav>ul>li>a:active {
     font-size: 1rem;
 }
 
