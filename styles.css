@@ -3,9 +3,9 @@
 :root {
     --yellow: #fecd32;
     --black: #000000;
-    --white: #ffffff;
-    --gray: #545454;
-    --grayblue: #81adc8;
+    --white: #f2f2f2;
+    --gray: #2f2f2f;
+    --blue: #2c3e50;
 }
 
 /* GENERAL start */
@@ -31,7 +31,8 @@ li {
 
 section {
     /* Prevent anchor links from scrolling over the section header */
-    scroll-margin-top: 50px;
+    scroll-margin-top: 35px;
+    padding: 20px;
 }
 
 /* GENERAL stop */
@@ -68,7 +69,7 @@ nav>ul>li>a:hover, nav>ul>li>a:hover {
 /* HEADER start */
 
 .main-header {
-    background: #ffffff url("digit_hero.jpg") no-repeat center center;
+    background: #ffffff url("assets/digit_hero.jpg") no-repeat center center;
     backdrop-filter: blur(50%);
     background-size: cover;
     height: 40vh;
@@ -91,3 +92,33 @@ nav>ul>li>a:hover, nav>ul>li>a:hover {
 }
 
 /* HEADER stop  */
+
+/* SECTIONS start */
+
+#about, #contact {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+#education, #projects {
+    background-color: var(--white);
+    color: var(--gray);
+}
+
+#experience {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+#contact a {
+    color: white;
+}
+
+.social {
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* SECTIONS stop */
