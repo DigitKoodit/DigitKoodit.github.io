@@ -46,7 +46,7 @@ nav {
     z-index: 1;
 }
 
-nav>ul {
+nav ul {
     margin: 0;
     padding: 15px 0;
     display: flex;
@@ -54,12 +54,12 @@ nav>ul {
     align-items: center;
 }
 
-nav>ul>li>a {
+nav ul li a {
     color: var(--black);
     transition: font-size 0.3s;
 }
 
-nav>ul>li>a:hover, nav>ul>li>a:active {
+nav ul li a:hover, nav ul li a:active {
     font-size: 1rem;
 }
 
@@ -74,7 +74,7 @@ nav>ul>li>a:hover, nav>ul>li>a:active {
     height: 40vh;
 }
 
-.main-header>hgroup {
+.main-header hgroup {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +86,7 @@ nav>ul>li>a:hover, nav>ul>li>a:active {
     text-shadow: -0.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
 }
 
-.main-header>hgroup>h2 {
+.main-header hgroup h2 {
     font-size: 1em;
 }
 
