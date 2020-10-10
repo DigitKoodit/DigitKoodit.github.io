@@ -121,3 +121,14 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /* SECTIONS stop */
+
+/* FOOTER start */
+
+footer {
+    background-color: var(--black);
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+}
+
+/* FOOTER stop */
