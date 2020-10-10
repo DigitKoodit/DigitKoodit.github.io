@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a:active {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /* NAV stop */
@@ -68,7 +68,7 @@ nav ul li a:hover, nav ul li a:active {
 /* HEADER start */
 
 .main-header {
-    background: #ffffff url("assets/digit_hero.jpg") no-repeat center center;
+    background: #ffffff url("digit_hero.jpg") no-repeat center center;
     backdrop-filter: blur(50%);
     background-size: cover;
     height: 40vh;
